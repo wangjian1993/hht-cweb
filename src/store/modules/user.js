@@ -125,6 +125,7 @@ const user = {
         commit('SET_TOKEN', '')
         Cookies.remove('Admin-Token')
         resolve()
+        location.href = 'http://wifi.alilo.com.cn/hht-admin/index.html'
       })
     },
     // 动态修改权限

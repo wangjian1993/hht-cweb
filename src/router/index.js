@@ -28,7 +28,7 @@ const customList = _import('custom/custom-list/custom-list')
 const wxDeviceList = _import('wxdevice/wxdevice-list/index')
 const vendorList = _import('wxdevice/vendor-list/vendor-list')
 const wxuserList = _import('wxdevice/wxuser-list/index')
-const count = _import('wxdevice/count/index')
+// const count = _import('wxdevice/count/index')
 Vue.use(Router)
 export const constantRouterMap = [
   {path: '/login', component: Login, hidden: true},
@@ -78,8 +78,8 @@ export const asyncRouterMap = [
     children: [
       {path: 'list', component: wxDeviceList, name: '微信设备列表', meta: {role: ['admin']}},
       {path: 'wxuser', component: wxuserList, name: '微信用户列表', meta: {role: ['admin']}},
-      {path: 'vendor', component: vendorList, name: '厂商列表', meta: {role: ['admin']}},
-      {path: 'count', component: count, name: '数据统计', meta: {role: ['admin']}}]
+      {path: 'vendor', component: vendorList, name: '厂商列表', meta: {role: ['admin']}}]
+      // {path: 'count', component: count, name: '数据统计', meta: {role: ['admin']}}
   },
   { path: '*', redirect: '/404', hidden: true }
 ]

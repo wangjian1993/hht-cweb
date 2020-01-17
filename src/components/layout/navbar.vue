@@ -13,7 +13,7 @@
         <span class="user-name">{{name}}</span>
       </div>
       <el-dropdown-menu class="user-dropdown" slot="dropdown">
-        <a href="http://hht.itinga.cn">
+        <a href="http://wifi.alilo.com.cn/hht-admin/index.html">
           <el-dropdown-item>
             首页
           </el-dropdown-item>

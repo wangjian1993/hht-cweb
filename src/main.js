@@ -74,7 +74,7 @@ router.beforeEach((to, from, next) => {
       }
     }
   } else {
-    // window.location.href = 'http://hht.itinga.cn'
+    window.location.href = 'http://wifi.alilo.com.cn/hht-admin/index.html'
     // console.log('whiteList.indexOf(to.path) !== -1')
     // if (whiteList.indexOf(to.path) !== -1) { // 在免登陆白名单，直接进入
     //   next()
